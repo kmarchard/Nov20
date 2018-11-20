@@ -6,11 +6,10 @@ pipeline {
             steps {
                 sh 'mvn -B -DskipTests clean package'
                 sh 'mvn --version'
+                echo "Hello World!"
             }
         }
     }
-        node {
-    echo 'Hello World'
-}
+       
         }    
         

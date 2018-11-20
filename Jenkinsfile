@@ -7,5 +7,9 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
+        steps {
+                sh 'mvn --version'
+            }
         }
+    
         }

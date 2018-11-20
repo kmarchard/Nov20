@@ -2,7 +2,7 @@ pipeline {
     agent any
       
     stages {
-        stage('Build') {
+        stage('Krishna') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
                 sh 'mvn --version'
